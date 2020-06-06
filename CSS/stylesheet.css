@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("../img/creampaper.png");
+    font-family: 'Poppins', sans-serif;
+}
+
+#wraper {
+    max-width: 1200px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+
+}
+
+.left {
+    background-color: rgb(1, 29, 61);
+    width: 30%;
+}
+.right {
+    width: 70%;
+}
+
+#foto {
+    padding-left: 4em;
+    padding-top: 3em;
+    margin-bottom: 60px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+dl {
+color: #ffffff;
+margin-left: 2em;
+}
+
+dt {
+font-size: 20px ;
+padding-bottom: 20px;
+line-height: 2px;
+margin-top: 20px;
+}
+
+dd {
+    color: #ffffff;
+    padding-left: 1.2em;
+    font-size: 15px;
+}
+.space {
+    padding-left: 20px;
+}
+h2 {
+    text-decoration: underline;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-top: 10px ;
+}
+.right p {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+header p {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+}
+.prog1 {
+    margin-top: 2em;
+    margin-left: 3em;
+    width: 90%;
+    
+}
+.prog2 {
+    margin-top: 2em;
+    margin-left: 1.8em;
+    width: 90%;
+}
+    
+ .prog3 {
+    margin-top: 2em;
+    margin-left: 1.8em;
+    width: 90%;
+    margin-bottom: 40px; 
+}
+label {
+    margin-left: 1.5em;
+    padding-right: 6px;
+}
+@media screen and (min-width:980px) and (max-width:1205px){
+
+  label {
+   display: block;
+   }
+  section {
+    text-align: center;
+  }
+  .prog1 {
+    padding-right: 2.2em;
+  }
+
+}
+   
+
+@media all and (max-width: 980px) {
+    #wraper {
+        display: block;
+    }
+    .left {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 4em;
+      padding-left: ;
+     
+    }
+    #foto {
+        margin:auto;
+        
+    }
+    .right {
+      width: 100%;
+      text-align: center;
+     
+    }
+    dt {
+      font-size: 40px;
+      padding-bottom: 1em;
+      padding-top:1em;
+      
+    }
+    dd {
+      font-size: 25px;
+      padding-bottom: 5px;
+    }
+    .prog1,.prog2,.prog3 {
+      margin-top: 2em;
+      margin-left: 1.8em;
+      width: 90%;
+      margin-bottom: 40px;
+      padding-left: 4em;
+      text-align: center;
+}
+    
+    label {
+        display: block;
+    }
+}
+@media all and (max-width: 440px) {
+    #wraper {
+        display: block;
+    }
+    .left {
+      width: 100%;
+      text-align: left;
+      padding-bottom: 4em;
+      padding-left: 1em;
+     
+    }
+    #foto {
+        margin: auto;
+        
+    }
+    .right {
+      width: 100%;
+      text-align: center;
+     
+    }
+  h1 {
+    font-size: 50px;
+  }
+    dt {
+        font-size: 30px;
+        padding-bottom: 1em;
+    }
+    dd {
+        font-size: 20px;
+        padding-bottom: 5px;
+        width: 80%;
+    }
+    label {
+        display: block;
+    }
+    .prog1,.prog2,.prog3 {
+        margin-top: 2em;
+        margin-left: 0.2em;
+        width: 90%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
