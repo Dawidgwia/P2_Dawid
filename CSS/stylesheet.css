@@ -14,8 +14,8 @@ body {
 #wraper {
     max-width: 1200px;
     background-color: #ffffff;
-    margin: 0 auto;
-    border: 2px solid black;
+    margin: 5px auto;
+    border: 1px solid black;
     display: flex;
 
 }
@@ -57,9 +57,6 @@ dd {
     padding-left: 1.2em;
     font-size: 15px;
 }
-.space {
-    padding-left: 20px;
-}
 h2 {
     text-decoration: underline;
     margin-left: 5%;
@@ -75,27 +72,25 @@ header p {
     font-size: 40px;
     margin-top: 0px;
 }
-.prog1 {
-    margin-top: 2em;
-    margin-left: 3em;
-    width: 90%;
-    
-}
-.prog2 {
+.prog1, .prog2, .prog3 {
     margin-top: 2em;
     margin-left: 1.8em;
     width: 90%;
-}
     
- .prog3 {
-    margin-top: 2em;
-    margin-left: 1.8em;
-    width: 90%;
-    margin-bottom: 40px; 
 }
+.space{
+    padding-left: 35px;
+}
+.worke {
+    margin-top: 20px;
+}
+
 label {
     margin-left: 1.5em;
     padding-right: 6px;
+}
+.skills {
+    text-align: left;
 }
 @media screen and (min-width:980px) and (max-width:1205px){
 
@@ -105,8 +100,8 @@ label {
   section {
     text-align: center;
   }
-  .prog1 {
-    padding-right: 2.2em;
+  .space {
+      padding-left: 0;
   }
 
 }
@@ -120,7 +115,6 @@ label {
       width: 100%;
       text-align: center;
       padding-bottom: 4em;
-      padding-left: ;
      
     }
     #foto {
@@ -153,6 +147,9 @@ label {
     
     label {
         display: block;
+    }
+    .space {
+        padding-left: 0;
     }
 }
 @media all and (max-width: 440px) {
@@ -196,5 +193,8 @@ label {
         width: 90%;
         margin-bottom: 40px;
         text-align: center;
+    }
+    .space {
+        padding-left: 0;
     }
 }
