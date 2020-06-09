@@ -17,6 +17,8 @@ body {
     margin: 5px auto;
     border: 1px solid black;
     display: flex;
+    -webkit-box-shadow: 8px -1px 16px 5px rgba(0,0,0,0.79); 
+    box-shadow: 8px -1px 16px 5px rgba(0,0,0,0.79);
 
 }
 
