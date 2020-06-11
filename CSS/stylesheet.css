@@ -96,19 +96,27 @@ label {
 }
 @media screen and (min-width:980px) and (max-width:1205px){
 
+
   label {
    display: block;
    }
-  aside, section {
+  aside, section  {
     text-align: center;
   }
+  dl {
+      margin-left: 0;
+  }
   #foto {
-  margin-left: -35px;
-    }
-  .space {
-      padding-left: 0;
+      margin-top: 20px;
+      padding: 0;
   }
 
+  .space {
+    padding-left: 0;
+  }
+  dt {
+      margin-bottom: 10px;
+  }
 }
    
 
