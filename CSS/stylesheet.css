@@ -99,7 +99,7 @@ label {
   label {
    display: block;
    }
-  section {
+  aside, section {
     text-align: center;
   }
   .space {
